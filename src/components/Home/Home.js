@@ -5,7 +5,7 @@ import Skills from "../Hero/Skills";
 import TeachingMedium from "../Hero/TeachingMedium";
 import Navbar from "../Navbar/Navbar";
 import styled from "styled-components";
-import Link_Preview from "../Link_Preview/Link_Preview";
+import LinkPreview from "../LinkPreview/LinkPreview";
 
 const Container = styled.div``;
 const PageContainer = styled.div`
@@ -21,7 +21,7 @@ export const Home = () => {
         <FirstBanner />
         <TeachingMedium />
         <Skills />
-        <Link_Preview />
+        <LinkPreview />
       </PageContainer>
     </Container>
   );

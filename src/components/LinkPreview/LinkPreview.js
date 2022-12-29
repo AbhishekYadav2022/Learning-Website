@@ -9,7 +9,7 @@ const Content = styled.div`
   padding: 10px;
 `;
 
-function Link_Preview() {
+function LinkPreview() {
   return (
     <div>
       <Head>This is link preview</Head>
@@ -18,4 +18,4 @@ function Link_Preview() {
   );
 }
 
-export default Link_Preview;
+export default LinkPreview;
